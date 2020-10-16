@@ -1,0 +1,30 @@
+@import "components";
+@import 'var';
+@import 'mixins';
+nav{
+  margin: 50px 0 50px;
+  padding: 25px 0 25px;
+  background-color: $navColor;
+  @include round(80px, #b2d525);
+  /*@extend .rounding;*/
+  ul{
+    margin: 0;
+    li{
+      text-align: center;
+      display: inline-block;
+      /*padding: $padding50;*/
+      width: $w19;
+      a{
+        @extend .rounding;
+        background-color: blueviolet;
+        color: white;
+        @extend .button;
+        text-decoration: none;
+        font-size: $fs50;
+        &:hover{
+          color: aqua;
+        }
+      }
+    }
+  }
+}

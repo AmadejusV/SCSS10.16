@@ -1,0 +1,35 @@
+.button, nav ul li a {
+  border-radius: 10px;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px;
+  color: blueviolet; }
+
+.rounding, nav ul li a {
+  background-color: coral;
+  border-radius: 80px; }
+
+/*background-colors*/
+nav {
+  margin: 50px 0 50px;
+  padding: 25px 0 25px;
+  background-color: #f1dc85;
+  border-radius: 80px;
+  background-color: #b2d525;
+  /*@extend .rounding;*/ }
+  nav ul {
+    margin: 0; }
+    nav ul li {
+      text-align: center;
+      display: inline-block;
+      /*padding: $padding50;*/
+      width: 19%; }
+      nav ul li a {
+        background-color: blueviolet;
+        color: white;
+        text-decoration: none;
+        font-size: 50px; }
+        nav ul li a:hover {
+          color: aqua; }
+
+/*# sourceMappingURL=style.css.map */

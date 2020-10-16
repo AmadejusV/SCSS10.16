@@ -1,0 +1,47 @@
+@import "components";
+@import 'var';
+@import 'mixins';
+
+body{
+
+  background-color: black;
+  .gallery{
+    @extend .center;
+    h1{
+      @include padding(30px, 20px);
+    }
+    p{
+      @include padding(10px, 20px);
+    }
+    background-color: white;
+    width: 80%;
+    img{
+      @extend .roundPaddedWHImg
+    }
+  }
+}
+/*nav{
+  margin: 50px 0 50px;
+  padding: 25px 0 25px;
+  background-color: $navColor;
+  @include round(80px, #b2d525);
+  ul{
+    margin: 0;
+    li{
+      text-align: center;
+      display: inline-block;
+      width: $w19;
+      a{
+        @extend .rounding;
+        background-color: blueviolet;
+        color: white;
+        @extend .button;
+        text-decoration: none;
+        font-size: $fs50;
+        &:hover{
+          color: aqua;
+        }
+      }
+    }
+  }
+}*/

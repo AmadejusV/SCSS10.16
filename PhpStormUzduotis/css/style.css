@@ -1,0 +1,59 @@
+.button {
+  border-radius: 10px;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px;
+  color: blueviolet; }
+
+.rounding {
+  background-color: coral;
+  border-radius: 80px; }
+
+.roundPaddedWHImg, body .gallery img {
+  border-radius: 50%;
+  padding: 2.3%;
+  width: 20%;
+  height: 20%; }
+
+/*background-colors*/
+body {
+  background-color: black; }
+  body .gallery {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 80%; }
+    body .gallery h1 {
+      padding-top: 30px;
+      padding-bottom: 20px; }
+    body .gallery p {
+      padding-top: 10px;
+      padding-bottom: 20px; }
+
+/*nav{
+  margin: 50px 0 50px;
+  padding: 25px 0 25px;
+  background-color: $navColor;
+  @include round(80px, #b2d525);
+  ul{
+    margin: 0;
+    li{
+      text-align: center;
+      display: inline-block;
+      width: $w19;
+      a{
+        @extend .rounding;
+        background-color: blueviolet;
+        color: white;
+        @extend .button;
+        text-decoration: none;
+        font-size: $fs50;
+        &:hover{
+          color: aqua;
+        }
+      }
+    }
+  }
+}*/
+
+/*# sourceMappingURL=style.css.map */

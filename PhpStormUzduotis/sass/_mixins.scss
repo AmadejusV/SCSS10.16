@@ -1,0 +1,8 @@
+@mixin round($radius, $color){
+  border-radius: $radius;
+  background-color: $color;
+}
+@mixin padding($top, $bottom){
+  padding-top: $top;
+  padding-bottom: $bottom;
+}

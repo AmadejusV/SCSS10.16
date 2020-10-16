@@ -1,0 +1,19 @@
+.container-fluid{
+	background-color: black;
+}
+.container{
+	background-color: #000;
+	color: #fff;
+}
+header{
+	margin-bottom: 50px;
+}
+header img{
+	height: 250px;
+}
+main div img{
+	height: 300px;
+}
+.tarpas{
+	margin-top: 50px;
+}

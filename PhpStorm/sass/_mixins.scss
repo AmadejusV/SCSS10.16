@@ -1,0 +1,4 @@
+@mixin round($radius, $color){
+  border-radius: $radius;
+  background-color: $color;
+}
